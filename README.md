@@ -6,18 +6,18 @@ This repository stores scripts, templates, notes, and lightweight examples for D
 
 ```text
 DFT/
-├── scripts/              # Reusable Python/Bash scripts for VASP workflows
-│   ├── prepare/          # Build or check input files before submission
-│   ├── submit/           # Job submission helpers
-│   ├── postprocess/      # Extract energy, convergence, DOS, band, and structure data
-│   └── utils/            # Shared helper functions
-├── templates/            # Reusable VASP and scheduler templates
-│   ├── vasp/             # INCAR, KPOINTS, and input templates
-│   └── scheduler/        # SLURM/PBS job templates
-├── examples/             # Small, safe example inputs and usage notes
-├── docs/                 # Notes, conventions, and workflow documentation
-├── notebooks/            # Analysis notebooks, if needed
-└── results/              # Lightweight processed results only
+|-- scripts/              # Reusable Python/Bash scripts for VASP workflows
+|   |-- prepare/          # Build or check input files before submission
+|   |-- submit/           # Job submission helpers
+|   |-- postprocess/      # Extract energy, convergence, DOS, band, and structure data
+|   `-- utils/            # Shared helper functions
+|-- templates/            # Reusable VASP and scheduler templates
+|   |-- vasp/             # INCAR, KPOINTS, and input templates
+|   `-- scheduler/        # SLURM/PBS job templates
+|-- examples/             # Small, safe example inputs and usage notes
+|-- docs/                 # Notes, conventions, and workflow documentation
+|-- notebooks/            # Analysis notebooks, if needed
+`-- results/              # Lightweight processed results only
 ```
 
 ## What To Track

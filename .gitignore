@@ -1,0 +1,58 @@
+# VASP licensed or machine-specific files
+POTCAR
+POTCAR*
+
+# Heavy VASP outputs
+WAVECAR
+WAVEDER
+CHGCAR
+CHG
+vasprun.xml
+vaspout.h5
+OUTCAR
+OUTCAR.*
+DOSCAR
+EIGENVAL
+IBZKPT
+OSZICAR
+PCDAT
+PROCAR
+REPORT
+XDATCAR
+LOCPOT
+ELFCAR
+AECCAR*
+
+# Scheduler and runtime outputs
+slurm-*.out
+slurm-*.err
+*.out
+*.err
+*.log
+
+# Large archives and binary dumps
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.h5
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

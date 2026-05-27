@@ -1,0 +1,26 @@
+SYSTEM = vasp-dos
+
+# Accuracy
+PREC   = Accurate
+ENCUT  = 520
+EDIFF  = 1E-6
+LASPH  = .TRUE.
+LREAL  = .FALSE.
+
+# DOS from a converged charge density
+ICHARG = 11
+ISMEAR = -5
+NEDOS  = 2000
+LORBIT = 11
+ISPIN  = 2
+
+# Static calculation
+IBRION = -1
+NSW    = 0
+
+# Output control
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
+
+# Parallel settings; tune for your cluster
+NCORE  = 4

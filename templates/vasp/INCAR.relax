@@ -1,0 +1,29 @@
+SYSTEM = vasp-relax
+
+# Accuracy
+PREC   = Accurate
+ENCUT  = 520
+EDIFF  = 1E-5
+EDIFFG = -0.02
+LASPH  = .TRUE.
+LREAL  = Auto
+
+# Electronic optimization
+ALGO   = Normal
+NELM   = 120
+ISMEAR = 0
+SIGMA  = 0.05
+ISPIN  = 2
+
+# Ionic relaxation
+IBRION = 2
+NSW    = 100
+ISIF   = 2
+
+# Output control
+LORBIT = 11
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
+
+# Parallel settings; tune for your cluster
+NCORE  = 4
